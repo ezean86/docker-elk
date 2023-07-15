@@ -1,9 +1,0 @@
-{
-    "$schema": "https://codesandbox.io/schemas/tasks.json",
-    "tasks": {
-      "test":{
-        "name":"test",
-        "command":"echo test"
-      }
-    }
-  }
