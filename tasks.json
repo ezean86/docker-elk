@@ -1,0 +1,19 @@
+{
+    "$schema": "https://codesandbox.io/schemas/tasks.json",
+    "setupTasks": ["yarn install", "yarn build"],
+    "tasks": {
+      "start-sandbox": {
+        "name": "Start Lunar Proxy sandbox",
+        "command": "docker-compose -f docker-compose.yml up",
+        "runAtStart": true,
+        "preview": {
+            "port": 3000,
+            "prLink": "direct"
+          }
+      },
+      "test":{
+        "name":"test",
+        "command":"echo test"
+      }
+    }
+  }
